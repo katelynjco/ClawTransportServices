@@ -108,7 +108,7 @@ a:focus {
   width: 100vw;
   background: var(--secondary-color);
   color: var(--primary-variant);
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
