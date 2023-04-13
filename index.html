@@ -65,14 +65,22 @@
     </section>
     <!-- Contacts Section -->
     <section id="contact">
-        <form class="quote-form" action="https://formsubmit.co/formsubmit.katelynjco@gmail.com" method="POST">
+        <form class="quote-form" action="https://formsubmit.co/51c92017d4ce960a75968e1a98370491" method="POST">
+
+            <!-- honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+            <!-- disable captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidden" name="_next" value="https://katelynjco.github.io/ClawTransportServices/#contact">
+
             <h2>Get a Quote...</h2>
             <h3>Name:</h3>
-            <p type="Name:"><input placeholder="Write your name here" required></input></p>
+            <p type="Name:"><input placeholder="Write your name here" name="Name" required></input></p>
             <h3>Email:</h3>
-            <p type="Email:"><input placeholder="Let us know how to contact you back" required></input></p>
+            <p type="Email:"><input placeholder="Let us know how to contact you back" name="Email" required></input></p>
             <h3>Message:</h3>
-            <p type="Message:"><input placeholder="Tell us about your project" required></input></p>
+            <p type="Message:"><input placeholder="Tell us about your project" name="Message" required></input></p>
             <button>Send Message</button>
             <div class="contact-icons">
               <span class="fa fa-phone"></span>(571) 719-3151
