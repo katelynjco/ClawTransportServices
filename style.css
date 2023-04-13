@@ -98,6 +98,31 @@ a:focus {
   border-bottom: 3px solid;
 }
 
+.submission-comfirmation {
+  z-index: 11;
+  position: fixed;
+  margin-top: 70px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding: 5px;
+  width: 100vw;
+  background: var(--secondary-color);
+  color: var(--primary-variant);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#confirmed {
+  position: fixed;
+  text-align: center;
+}
+
+#close-confirmed {
+  position: relative;
+  left: -48vw;
+}
+
 /* Home Section */
 .title-group {
   text-align: center;
